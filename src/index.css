@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  background-color: #0A0A0A;
+  color: #FFFFFF;
+  overscroll-behavior: none;
+}
+
+
+body {
+  height: 100%;
+  overscroll-behavior: none;
+}
+
+.cm-theme-dark {
+  height: 100%;
+}
+
+.cm-theme-dark .cm-editor {
+  height: 100%;
+  background-color: transparent !important;
+}
+
+.cm-theme-dark .cm-scroller {
+  overflow: hidden;
+}
+
+.cm-theme-dark .cm-content {
+  font-family: monospace;
+  font-size: 14px;
+  padding: 0;
+  background-color: transparent !important;
+  white-space: nowrap;
+}
+
+.cm-theme-dark .cm-line {
+  padding: 0;
+  background-color: transparent !important;
+  white-space: nowrap;
+}
+
+.cm-theme-dark .cm-gutters {
+  display: none;
+}
+
+.cm-theme-dark .cm-activeLine {
+  background-color: transparent !important;
+}
+
+.cm-editor.cm-focused {
+  outline: none;
+}
